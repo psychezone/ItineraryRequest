@@ -12,12 +12,12 @@
 
 @interface SuggestedItineraryTableViewController : UITableViewController<WYPopoverControllerDelegate>
 
-@property NSMutableArray *itineraries;
-@property NSMutableArray *days;
-@property NSMutableArray *selectedItineraries;
+@property (strong, nonatomic) NSMutableArray *itineraries;
+@property (strong, nonatomic) NSMutableArray *days;
+@property (strong, nonatomic) NSMutableArray *selectedItineraries;
 @property int numDays;
-@property CCUIDatePicker *datepicker;
-@property WYPopoverController *popOverForDatePicker;
+@property (strong, nonatomic) CCUIDatePicker *datepicker;
+@property (strong, nonatomic) WYPopoverController *popOverForDatePicker;
 
 - (IBAction)onClickCheckmark:(UIButton *)sender;
 - (IBAction)onSelectAllPressed:(UIBarButtonItem *)sender;

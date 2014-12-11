@@ -202,6 +202,9 @@
     checkmark.selected = !checkmark.selected;
     
     Itinerary *itinerary = [self getItineraryForRow:indexPath.section row:indexPath.row];
+    //set time
+    UIButton *time = (UIButton *) [cell viewWithTag:2];
+    itinerary.time = time.titleLabel.text;
     
     if(checkmark.selected == YES){ //selecting restaurant
         if(![self hasItinerary:itinerary]){

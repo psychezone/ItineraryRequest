@@ -15,7 +15,7 @@
 @property (strong, nonatomic) NSMutableArray *itineraries;
 @property (strong, nonatomic) NSMutableArray *days;
 @property (strong, nonatomic) NSMutableArray *selectedItineraries;
-@property int numDays;
+@property (nonatomic) int numDays;
 @property (strong, nonatomic) CCUIDatePicker *datepicker;
 @property (strong, nonatomic) WYPopoverController *popOverForDatePicker;
 

@@ -11,8 +11,8 @@
 
 @interface CCUIDatePicker : UIDatePicker
 
-@property UIButton *button;
-@property NSInteger section;
-@property NSInteger row;
+@property (nonatomic, weak) UIButton *button;
+@property (nonatomic) NSInteger section;
+@property (nonatomic) NSInteger row;
 
 @end

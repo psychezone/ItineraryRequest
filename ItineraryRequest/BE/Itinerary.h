@@ -10,9 +10,9 @@
 
 @interface Itinerary : NSObject
 
-@property int day;
+@property (nonatomic) int day;
 @property (strong, nonatomic) NSString * restaurant;
 @property (strong, nonatomic) NSString * time;
-@property int order;
+@property (nonatomic) int order;
 
 @end

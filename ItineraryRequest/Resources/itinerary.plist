@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>day</key>
+            <real>1</real>
+            <key>restaurant</key>
+            <string>Duck &amp; Waffle</string>
+            <key>time</key>
+            <string>10:00 AM</string>
+            <key>order</key>
+            <real>0</real>
+        </dict>
+        <dict>
+            <key>day</key>
+            <real>1</real>
+            <key>restaurant</key>
+            <string>Sketch</string>
+            <key>time</key>
+            <string>1:00 PM</string>
+            <key>order</key>
+            <real>1</real>
+        </dict>
+        <dict>
+            <key>day</key>
+            <real>2</real>
+            <key>restaurant</key>
+            <string>10 Greek Street</string>
+            <key>time</key>
+            <string>12:30 AM</string>
+            <key>order</key>
+            <real>0</real>
+        </dict>
+        <dict>
+            <key>day</key>
+            <real>2</real>
+            <key>restaurant</key>
+            <string>The Clove Club</string>
+            <key>time</key>
+            <string>7:30 PM</string>
+            <key>order</key>
+            <real>1</real>
+        </dict>
+        <dict>
+            <key>day</key>
+            <real>3</real>
+            <key>restaurant</key>
+            <string>Gymkhana</string>
+            <key>time</key>
+            <string>7:00 PM</string>
+            <key>order</key>
+            <real>0</real>
+        </dict>
+    </array>
+
+</plist>

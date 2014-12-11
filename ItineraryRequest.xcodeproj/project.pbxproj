@@ -15,6 +15,22 @@
 		B200923B1A38BD8D005160FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B200923A1A38BD8D005160FB /* Images.xcassets */; };
 		B200923E1A38BD8D005160FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B200923C1A38BD8D005160FB /* LaunchScreen.xib */; };
 		B200924A1A38BD8D005160FB /* ItineraryRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B20092491A38BD8D005160FB /* ItineraryRequestTests.m */; };
+		B20092591A38E0F9005160FB /* SuggestedItineraryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20092581A38E0F9005160FB /* SuggestedItineraryTableViewController.m */; };
+		B200925C1A38E2AA005160FB /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = B200925A1A38E2AA005160FB /* checkmark.png */; };
+		B200925D1A38E2AA005160FB /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B200925B1A38E2AA005160FB /* checkmark@2x.png */; };
+		B20092601A38E361005160FB /* checkmark_on.png in Resources */ = {isa = PBXBuildFile; fileRef = B200925E1A38E361005160FB /* checkmark_on.png */; };
+		B20092611A38E361005160FB /* checkmark_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B200925F1A38E361005160FB /* checkmark_on@2x.png */; };
+		B20092681A38ED32005160FB /* PListBO.m in Sources */ = {isa = PBXBuildFile; fileRef = B20092671A38ED32005160FB /* PListBO.m */; };
+		B200926A1A38EF96005160FB /* itinerary.plist in Resources */ = {isa = PBXBuildFile; fileRef = B20092691A38EF96005160FB /* itinerary.plist */; };
+		B200926E1A38F373005160FB /* Itinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = B200926D1A38F373005160FB /* Itinerary.m */; };
+		B20092841A392CDF005160FB /* WYPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20092811A392CDF005160FB /* WYPopoverController.m */; };
+		B20092851A392CDF005160FB /* WYStoryboardPopoverSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B20092831A392CDF005160FB /* WYStoryboardPopoverSegue.m */; };
+		B20092891A394B29005160FB /* CCUIDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B20092881A394B29005160FB /* CCUIDatePicker.m */; };
+		B2FCC0061A39505100A664C0 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FCC0051A39505100A664C0 /* Utils.m */; };
+		B2FCC0091A39526700A664C0 /* button_green.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FCC0071A39526700A664C0 /* button_green.png */; };
+		B2FCC00A1A39526700A664C0 /* button_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FCC0081A39526700A664C0 /* button_green@2x.png */; };
+		B2FCC00D1A3952B800A664C0 /* button_down_green.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FCC00B1A3952B800A664C0 /* button_down_green.png */; };
+		B2FCC00E1A3952B800A664C0 /* button_down_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FCC00C1A3952B800A664C0 /* button_down_green@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +58,29 @@
 		B20092431A38BD8D005160FB /* ItineraryRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItineraryRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20092481A38BD8D005160FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B20092491A38BD8D005160FB /* ItineraryRequestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItineraryRequestTests.m; sourceTree = "<group>"; };
+		B20092571A38E0F9005160FB /* SuggestedItineraryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuggestedItineraryTableViewController.h; sourceTree = "<group>"; };
+		B20092581A38E0F9005160FB /* SuggestedItineraryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuggestedItineraryTableViewController.m; sourceTree = "<group>"; };
+		B200925A1A38E2AA005160FB /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		B200925B1A38E2AA005160FB /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
+		B200925E1A38E361005160FB /* checkmark_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark_on.png; sourceTree = "<group>"; };
+		B200925F1A38E361005160FB /* checkmark_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark_on@2x.png"; sourceTree = "<group>"; };
+		B20092661A38ED32005160FB /* PListBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PListBO.h; sourceTree = "<group>"; };
+		B20092671A38ED32005160FB /* PListBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PListBO.m; sourceTree = "<group>"; };
+		B20092691A38EF96005160FB /* itinerary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = itinerary.plist; sourceTree = "<group>"; };
+		B200926C1A38F373005160FB /* Itinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Itinerary.h; sourceTree = "<group>"; };
+		B200926D1A38F373005160FB /* Itinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Itinerary.m; sourceTree = "<group>"; };
+		B20092801A392CDF005160FB /* WYPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYPopoverController.h; sourceTree = "<group>"; };
+		B20092811A392CDF005160FB /* WYPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYPopoverController.m; sourceTree = "<group>"; };
+		B20092821A392CDF005160FB /* WYStoryboardPopoverSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYStoryboardPopoverSegue.h; sourceTree = "<group>"; };
+		B20092831A392CDF005160FB /* WYStoryboardPopoverSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYStoryboardPopoverSegue.m; sourceTree = "<group>"; };
+		B20092871A394B29005160FB /* CCUIDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUIDatePicker.h; sourceTree = "<group>"; };
+		B20092881A394B29005160FB /* CCUIDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUIDatePicker.m; sourceTree = "<group>"; };
+		B2FCC0041A39505100A664C0 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		B2FCC0051A39505100A664C0 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		B2FCC0071A39526700A664C0 /* button_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_green.png; sourceTree = "<group>"; };
+		B2FCC0081A39526700A664C0 /* button_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_green@2x.png"; sourceTree = "<group>"; };
+		B2FCC00B1A3952B800A664C0 /* button_down_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_down_green.png; sourceTree = "<group>"; };
+		B2FCC00C1A3952B800A664C0 /* button_down_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_down_green@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +124,20 @@
 			children = (
 				B200922E1A38BD8D005160FB /* AppDelegate.h */,
 				B200922F1A38BD8D005160FB /* AppDelegate.m */,
+				B200926B1A38F35D005160FB /* BE */,
+				B20092651A38ECEC005160FB /* BO */,
+				B20092861A394AE8005160FB /* CustomControls */,
+				B200927D1A392CB2005160FB /* CustomViews */,
+				B200923A1A38BD8D005160FB /* Images.xcassets */,
+				B20092311A38BD8D005160FB /* ItineraryRequest.xcdatamodeld */,
+				B200923C1A38BD8D005160FB /* LaunchScreen.xib */,
+				B20092371A38BD8D005160FB /* Main.storyboard */,
+				B20092531A38C434005160FB /* Resources */,
+				B20092571A38E0F9005160FB /* SuggestedItineraryTableViewController.h */,
+				B20092581A38E0F9005160FB /* SuggestedItineraryTableViewController.m */,
+				B200922A1A38BD8D005160FB /* Supporting Files */,
 				B20092341A38BD8D005160FB /* ViewController.h */,
 				B20092351A38BD8D005160FB /* ViewController.m */,
-				B20092371A38BD8D005160FB /* Main.storyboard */,
-				B200923A1A38BD8D005160FB /* Images.xcassets */,
-				B200923C1A38BD8D005160FB /* LaunchScreen.xib */,
-				B20092311A38BD8D005160FB /* ItineraryRequest.xcdatamodeld */,
-				B200922A1A38BD8D005160FB /* Supporting Files */,
 			);
 			path = ItineraryRequest;
 			sourceTree = "<group>";
@@ -120,6 +166,79 @@
 				B20092481A38BD8D005160FB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B20092531A38C434005160FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2FCC00B1A3952B800A664C0 /* button_down_green.png */,
+				B2FCC00C1A3952B800A664C0 /* button_down_green@2x.png */,
+				B2FCC0071A39526700A664C0 /* button_green.png */,
+				B2FCC0081A39526700A664C0 /* button_green@2x.png */,
+				B200925E1A38E361005160FB /* checkmark_on.png */,
+				B200925F1A38E361005160FB /* checkmark_on@2x.png */,
+				B200925A1A38E2AA005160FB /* checkmark.png */,
+				B200925B1A38E2AA005160FB /* checkmark@2x.png */,
+				B20092621A38EA26005160FB /* plists */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B20092621A38EA26005160FB /* plists */ = {
+			isa = PBXGroup;
+			children = (
+				B20092691A38EF96005160FB /* itinerary.plist */,
+			);
+			name = plists;
+			sourceTree = "<group>";
+		};
+		B20092651A38ECEC005160FB /* BO */ = {
+			isa = PBXGroup;
+			children = (
+				B20092661A38ED32005160FB /* PListBO.h */,
+				B20092671A38ED32005160FB /* PListBO.m */,
+			);
+			name = BO;
+			sourceTree = "<group>";
+		};
+		B200926B1A38F35D005160FB /* BE */ = {
+			isa = PBXGroup;
+			children = (
+				B200926C1A38F373005160FB /* Itinerary.h */,
+				B200926D1A38F373005160FB /* Itinerary.m */,
+				B2FCC0041A39505100A664C0 /* Utils.h */,
+				B2FCC0051A39505100A664C0 /* Utils.m */,
+			);
+			name = BE;
+			sourceTree = "<group>";
+		};
+		B200927D1A392CB2005160FB /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				B200927F1A392CDF005160FB /* WYPopoverController */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		B200927F1A392CDF005160FB /* WYPopoverController */ = {
+			isa = PBXGroup;
+			children = (
+				B20092801A392CDF005160FB /* WYPopoverController.h */,
+				B20092811A392CDF005160FB /* WYPopoverController.m */,
+				B20092821A392CDF005160FB /* WYStoryboardPopoverSegue.h */,
+				B20092831A392CDF005160FB /* WYStoryboardPopoverSegue.m */,
+			);
+			name = WYPopoverController;
+			path = customViews/WYPopoverController;
+			sourceTree = "<group>";
+		};
+		B20092861A394AE8005160FB /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				B20092871A394B29005160FB /* CCUIDatePicker.h */,
+				B20092881A394B29005160FB /* CCUIDatePicker.m */,
+			);
+			name = CustomControls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +321,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B200926A1A38EF96005160FB /* itinerary.plist in Resources */,
+				B20092601A38E361005160FB /* checkmark_on.png in Resources */,
+				B2FCC00A1A39526700A664C0 /* button_green@2x.png in Resources */,
 				B20092391A38BD8D005160FB /* Main.storyboard in Resources */,
+				B2FCC0091A39526700A664C0 /* button_green.png in Resources */,
+				B20092611A38E361005160FB /* checkmark_on@2x.png in Resources */,
+				B200925C1A38E2AA005160FB /* checkmark.png in Resources */,
+				B2FCC00D1A3952B800A664C0 /* button_down_green.png in Resources */,
+				B2FCC00E1A3952B800A664C0 /* button_down_green@2x.png in Resources */,
 				B200923E1A38BD8D005160FB /* LaunchScreen.xib in Resources */,
 				B200923B1A38BD8D005160FB /* Images.xcassets in Resources */,
+				B200925D1A38E2AA005160FB /* checkmark@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,9 +351,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B20092301A38BD8D005160FB /* AppDelegate.m in Sources */,
+				B2FCC0061A39505100A664C0 /* Utils.m in Sources */,
+				B20092681A38ED32005160FB /* PListBO.m in Sources */,
 				B20092331A38BD8D005160FB /* ItineraryRequest.xcdatamodeld in Sources */,
 				B20092361A38BD8D005160FB /* ViewController.m in Sources */,
+				B20092591A38E0F9005160FB /* SuggestedItineraryTableViewController.m in Sources */,
+				B200926E1A38F373005160FB /* Itinerary.m in Sources */,
 				B200922D1A38BD8D005160FB /* main.m in Sources */,
+				B20092841A392CDF005160FB /* WYPopoverController.m in Sources */,
+				B20092851A392CDF005160FB /* WYStoryboardPopoverSegue.m in Sources */,
+				B20092891A394B29005160FB /* CCUIDatePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,8 +483,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ItineraryRequest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -358,8 +495,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ItineraryRequest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -416,6 +555,7 @@
 				B200924F1A38BD8D005160FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B20092501A38BD8D005160FB /* Build configuration list for PBXNativeTarget "ItineraryRequestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +564,7 @@
 				B20092521A38BD8D005160FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

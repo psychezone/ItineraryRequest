@@ -97,8 +97,8 @@
     [restaurantName setText:itinerary.restaurant];
 
     //set time
-    UIButton *time = (UIButton *) [cell viewWithTag:2];
-    [time setTitle:itinerary.time forState:UIControlStateNormal];
+    UIButton *timeButton = (UIButton *) [cell viewWithTag:2];
+    [timeButton setTitle:itinerary.time forState:UIControlStateNormal];
     
     return cell;
 }
@@ -152,11 +152,11 @@
     [addButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [addButton addTarget:self action:@selector(addButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     
-    CGRect footerViewRect = CGRectMake(0, 0, 300, 44);
+    CGRect footerViewRect = CGRectMake(0, 0, self.tableView.contentSize.width, 50);
     UIView *buttonView = [[UIView alloc]initWithFrame:footerViewRect];
     [buttonView addSubview:addButton];
     
-    self.tableView.tableFooterView = [[UIView alloc]initWithFrame:CGRectMake(70, 350, 300, 50)];
+    self.tableView.tableFooterView = [[UIView alloc]initWithFrame:CGRectMake(self.tableView.contentSize.width/2 - (addButton.frame.size.width/2), self.tableView.frame.origin.y + 20, self.tableView.contentSize.width, 50)];
     [self.tableView.tableFooterView addSubview:buttonView];
 
 }
